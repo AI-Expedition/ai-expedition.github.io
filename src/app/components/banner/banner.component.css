@@ -1,0 +1,56 @@
+.square-cell-blue {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la columna */
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    display: flex;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #488cca;
+}
+.square-cell-marine {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la columna */
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    display: flex;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4dcd5;
+}
+.square-cell-white {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la columna */
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    display: flex;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 5px solid #000; /* Borde para visualización */
+}
+.square-cell-logo {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la columna */
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    display: flex;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 130px;
+    padding-right: -100px;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    top: 50%;
+    right: -33%;
+    transform: translate(0%, -50%);
+}
+img{
+    min-width: 50px;
+    max-width: 200px;
+}
