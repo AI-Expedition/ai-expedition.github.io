@@ -37,20 +37,32 @@
     border-radius: 25%;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .title{
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 130px;
+    font-size: 140px;
     padding-right: -100px;
     position: absolute;
     margin: 0%;
     padding: 0%;
     top: 50%;
-    right: -33%;
+    right: -30%;
     transform: translate(0%, -50%);
+}
+.logo-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo-container>div>img{
+    max-width: 80px;
 }
 img{
     min-width: 50px;
     max-width: 200px;
+    margin: 0;
+    padding: 0;
 }
