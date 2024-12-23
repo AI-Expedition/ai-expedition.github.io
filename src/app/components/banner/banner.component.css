@@ -37,20 +37,53 @@
     border-radius: 25%;
     justify-content: center;
     align-items: center;
+    margin: 0%;
+    padding: 0%;
 }
 .title{
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 130px;
-    padding-right: -100px;
-    position: absolute;
+    font-size: 140px;
     margin: 0%;
     padding: 0%;
-    top: 50%;
-    right: -33%;
-    transform: translate(0%, -50%);
+    text-align: justify;
+    line-height: 1;
+}
+.title-container{
+        display: grid;
+    place-items: center;
 }
 img{
     min-width: 50px;
     max-width: 200px;
+}
+.width-m{
+    max-width: 1200px;
+}
+
+/* Laptop (Pantallas grandes) */
+@media (min-width: 1201px) {
+    .title {
+        font-size: 140px; /* Ajusta el tamaño para pantallas grandes */
+    }
+}
+/* Laptop (Pantallas grandes) */
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .title {
+        font-size: 12vw; /* Ajusta el tamaño para pantallas grandes */
+    }
+}
+
+/* iPad y tablets (Pantallas medianas) */
+@media (max-width: 1023px) and (min-width: 769px) {
+    .title {
+        font-size: 12vw; /* Ajusta el tamaño para tablets */
+    }
+}
+
+/* Teléfonos móviles (Pantallas pequeñas) */
+@media (max-width: 768px) {
+    .title {
+        font-size: 12vw; /* Ajusta el tamaño para móviles */
+    }
 }
