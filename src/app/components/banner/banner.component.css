@@ -62,9 +62,9 @@
 
 }
 .logo-container{
-    position: absolute;
-    top: 0;
-    left: 0;
+    text-align: start;
+    padding: 0%;
+    margin: 0%;
 }
 .logo-container>div>img{
     max-width: 80px;
@@ -73,14 +73,9 @@ img{
     min-width: 50px;
     max-width: 200px;
 }
+
 .width-m{
     max-width: 1200px;
-}
-.logo-container{
-    text-align: start;
-}
-.logo-container>div>img{
-    max-width: 80px;
 }
 
 /* Laptop (Pantallas grandes) */
@@ -92,7 +87,7 @@ img{
         max-width: 120px;
     }
     .align-vert{
-        font-size:xx-large;
+        font-size:24px;
     }
 }
 /* Laptop (Pantallas grandes) */
@@ -117,7 +112,7 @@ img{
         max-width: 70px;
     }
     .align-vert{
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -130,6 +125,6 @@ img{
         max-width: 5px;
     }
     .align-vert{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
