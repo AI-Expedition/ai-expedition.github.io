@@ -1,0 +1,68 @@
+.about-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin: 0%;
+    padding: 0%;
+    text-align: start;
+    line-height: 1;
+    color: #488cca;
+}
+.align-vert{
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    line-height: 1;
+}
+img{
+    max-width: 580px;
+}
+.width-m{
+    max-width: 1200px;
+}
+.dark-blue{
+    background-color: #13213c;
+}
+.medium-blue{
+    background-color: #488cca;
+}
+.custom-margin{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/* Laptop (Pantallas grandes) */
+@media (min-width: 1201px) {
+    img{
+        max-width: 580px;
+    }
+}
+/* Laptop (Pantallas grandes) */
+@media (min-width: 1024px) and (max-width: 1200px) {
+    img{
+        max-width: 40vw;
+    }
+}
+
+/* iPad y tablets (Pantallas medianas) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    img{
+        max-width: 40vw;
+    }
+}
+
+/* Teléfonos móviles (Pantallas pequeñas) */
+@media (max-width: 767px) {
+    img{
+        max-width: 60vw;
+    }
+    .about-title{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 0%;
+        padding: 0%;
+        text-align: start;
+        line-height: 1;
+        color: #488cca;
+    }
+}
