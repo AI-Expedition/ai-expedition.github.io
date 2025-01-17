@@ -1,0 +1,29 @@
+.dark-blue{
+    background-color: #13213c;
+}
+
+.med-blue-block{
+    background-color: #488cca;
+    width: 60vw;
+    font-size:x-large;
+}
+
+.light-blue{
+    background-color: #c4dcd5;
+    width: 60vw;
+    font-size:x-large;
+}
+
+.events-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    text-align:center;
+    line-height: 1;
+    color: #488cca;
+}
+
+.round{
+    border-radius: 1vw;
+}
