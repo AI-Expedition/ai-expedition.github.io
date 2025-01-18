@@ -7,41 +7,8 @@ img{
 .no-border{
     border: 0;
 }
-.custom-padding{
-    padding-top: 10vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
-}
-.custom-margin{
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
 .btn-text{
     font-family: "Montserrat", sans-serif !important;
     font-size: 20px !important;
     line-height: normal;
-}
-/* Laptop (big screens) */
-@media (min-width: 1701px) {
-    .custom-padding{
-        padding-top: 10vh;
-        padding-left: 15vw;
-        padding-right: 15vw;
-    }
-}
-
-/* iPad and tablets  */
-@media (max-width: 1023px) {
-    .custom-padding{
-        padding-top: 5vh;
-        padding-left: 15vw;
-        padding-right: 15vw;
-    }
-}
-
-@media (max-width: 768px) {
-    #card{
-        margin: 0% !important;
-    }
 }

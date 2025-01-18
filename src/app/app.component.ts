@@ -6,6 +6,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { AboutComponent } from './components/about/about.component';
 import { EventsComponent } from './components/events/events.component';
+import { ResourcesComponent } from './components/resources/resources.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { EventsComponent } from './components/events/events.component';
     BannerComponent, 
     IntroComponent, 
     AboutComponent,
-    EventsComponent
+    EventsComponent,
+    ResourcesComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

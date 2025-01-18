@@ -48,7 +48,7 @@ img{
 @media (max-width: 1023px) and (min-width: 768px) {
     img{
         max-width: 40vw;
-    }
+    }   
 }
 
 /* Teléfonos móviles (Pantallas pequeñas) */

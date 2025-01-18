@@ -1,0 +1,12 @@
+.width-m{
+    max-width: 1200px;
+}
+.resources-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    text-align:center;
+    line-height: 1;
+    color: #488cca;
+}

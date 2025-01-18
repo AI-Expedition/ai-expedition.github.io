@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+.custom-padding{
+    padding-top: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.custom-margin{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/* Laptop (big screens) */
+@media (min-width: 1701px) {
+    .custom-padding{
+        padding-top: 10vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
+
+/* iPad and tablets  */
+@media (max-width: 1023px) {
+    .custom-padding{
+        padding-top: 5vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #card{
+        margin: 0% !important;
+    }
+}
