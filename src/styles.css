@@ -5,6 +5,11 @@
     padding-right: 20vw;
 }
 
+
+.bg-dark-blue{
+    background-color: #13213c;
+}
+
 .custom-margin{
     margin-left: 5vw;
     margin-right: 5vw;

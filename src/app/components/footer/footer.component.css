@@ -1,7 +1,23 @@
 footer, footer>div>div.row{
-    min-height: 50vh;
+    min-height: 40vh;
+}
+#pic_logo{
+    max-width: 80px;
+}
+.statement{
+    font-size: 3rem;
+}
+.custom-position{
+    bottom: 0;
+    left: 0;
 }
 
-#pic_logo{
-    max-width: 50px;
+@media (max-width:760px){
+    .statement{
+        font-size: 1rem;
+    }
+    .custom-position{
+        top: 80%;
+        left: 70%;
+    }    
 }

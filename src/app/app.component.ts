@@ -7,6 +7,7 @@ import { IntroComponent } from './components/intro/intro.component';
 import { AboutComponent } from './components/about/about.component';
 import { EventsComponent } from './components/events/events.component';
 import { ResourcesComponent } from './components/resources/resources.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,8 @@ import { ResourcesComponent } from './components/resources/resources.component';
     IntroComponent, 
     AboutComponent,
     EventsComponent,
-    ResourcesComponent
+    ResourcesComponent,
+    ContactComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

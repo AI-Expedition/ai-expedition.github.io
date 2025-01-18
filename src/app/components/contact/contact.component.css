@@ -1,0 +1,21 @@
+.custom-height{
+    min-height: 30vh;
+    border-color: #c4dcd5;
+}
+.contact-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    text-align:center;
+    line-height: 1;
+    color: #488cca;
+}
+.dark-blue{
+    background-color: #13213c;
+    color: #c4dcd5;
+    font-size: large;
+}
+.light-blue{
+    background-color: #c4dcd5;
+}
