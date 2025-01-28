@@ -5,24 +5,29 @@
                 <img src="assets/Contact.png" alt="contact grid image" class="w-100">
             </div>
             <div class="col-md-5">
-                <h1 class="contact-title text-start">CONTACT</h1>
-                <p class="text-start">Stay connected and informed!</p>
-                <div class="row g-3 mb-3">
-                    <div class="col-md-6">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control light-blue" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <form (submit)="sendEmail($event)">
+                    <h1 class="contact-title text-start fw-bold">CONTACT</h1>
+                    <p class="text-start">Stay connected and informed!</p>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control light-blue" name="user_name" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control light-blue" name="user_email" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" required>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <input type="email" class="form-control light-blue" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                    <textarea name="message" id="msg" class="w-100 custom-height border border-4 rounded" required></textarea><br>
+                    <div class="row justify-content-end">
+                        <div *ngIf="notification" class="col-6 alert fw-bold" [ngClass]="{'alert-success': notification.type === 'success', 'alert-danger': notification.type === 'error'}" role="alert">
+                            {{ notification.message }}
+                        </div>
+                        <div class="col-6">
+                            <button type="submit" class="btn dark-blue w-100 rounded-pill fw-bold">SUBMIT</button>
+                        </div>
                     </div>
-                </div>
-                <textarea name="msg" id="msg" class="w-100 custom-height border border-4 rounded"></textarea><br>
-                <div class="row justify-content-end">
-                    <div class="col-6">
-                        <button type="submit" class="btn dark-blue w-100 rounded-pill">SUBMIT</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

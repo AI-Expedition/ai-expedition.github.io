@@ -12,7 +12,10 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-size: medium;
-    line-height: 1;
+}
+.text-size{
+    font-size: 20px;
+    text-align: justify;
 }
 img{
     max-width: 580px;

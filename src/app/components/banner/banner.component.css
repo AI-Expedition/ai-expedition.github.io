@@ -48,6 +48,8 @@
     padding: 0%;
     text-align: justify;
     line-height: 1;
+
+    animation: slideFromLeft 1.5s ease-out;
 }
 .align-vert{
     display: flex;
@@ -126,5 +128,16 @@ img{
     }
     .align-vert{
         font-size: 12px;
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%); /* Fuera de la pantalla, lado izquierdo */
+        opacity: 0; /* Opcional: que sea invisible al inicio */
+    }
+    100% {
+        transform: translateX(0); /* Posición final */
+        opacity: 1; /* Totalmente visible */
     }
 }
