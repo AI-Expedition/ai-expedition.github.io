@@ -28,6 +28,10 @@
     border-radius: 1vw;
 }
 
+.custom-height{
+    height: 600px;
+}
+
 @media (max-width: 768px) {
     .events-title{
         font-family:Arial, Helvetica, sans-serif;
@@ -48,5 +52,8 @@
         background-color: #c4dcd5;
         width: 80vw;
         font-size:medium;
+    }
+    .custom-height{
+        height: 300px;
     }
 }
